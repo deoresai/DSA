@@ -1,5 +1,5 @@
 //      counting leaf nodes from BST
-/*Write a program which uses binary search tree library and counts the total nodes and total 
+/*Write a program which counts the total nodes and total 
 leaf nodes in the tree. 
 int count(T) – returns the total number of nodes from BST 
 int countLeaf(T) – returns the total number of leaf nodes from BST
