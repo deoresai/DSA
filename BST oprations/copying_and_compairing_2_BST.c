@@ -59,7 +59,7 @@ int compair(struct node *root1, struct node *root2)
     {
         return 0;
     }
-    return compair(root1->left, root2->left) && compair(root1->right, root2->right);
+    return (root1->data==root2->data)&&(compair(root1->left, root2->left) && compair(root1->right, root2->right));
 }
 void inorder(struct node *root)
 {
