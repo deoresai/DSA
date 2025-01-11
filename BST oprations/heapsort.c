@@ -1,4 +1,6 @@
 //          heapsort
+/*Write a program to sort n randomly generated elements using Heapsort method.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void maxheap(int a[], int n, int i)
