@@ -18,7 +18,7 @@ void insert(int HT[10], int key)
     {
         while (HT[index] != -1)
         {
-            index = (index + 1);
+            index = (index + 1)%10;
             if (index == original)
             {
                 printf("hash table is full\n");
